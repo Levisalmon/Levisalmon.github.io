@@ -1,0 +1,33 @@
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\ApplicationInsights.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\csc.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\vbc.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\VBCSCompiler.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\portfolio cleanup.dll.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\portfolio cleanup.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\portfolio cleanup.pdb
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.Web.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.Web.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.csprojResolveAssemblyReference.cache
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.pdb
