@@ -1,0 +1,25 @@
+﻿@import "bootstrap.scss";
+@import "heights";
+@import "animations";
+
+body {
+    font-family:"BebasNeue Regular" !important;
+}
+
+.burger-wrapper {
+    @extend .row;
+    position:fixed;
+    z-index:1;
+}
+
+#menu_burger {
+    position:fixed;
+    top:51px;
+    left:51px;
+    color:#dadada;
+    font-size:30px;
+    border-radius: 100%;
+    padding: 9px;
+    background: #545454;
+}
+
