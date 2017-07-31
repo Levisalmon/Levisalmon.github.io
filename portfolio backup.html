@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/MainController.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage();
+            $("lime-logo").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function () {
+                $(".blobs").addClass('visible')
+            })
+
+            $(".char").hover(function () {
+                $(this).addClass("animated");
+            })
+        });
+    </script>
+
+</head>
+
+
+<body ng-app="myApp">
+    <div id="wrapper">
+
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <!--<li class="sidebar-brand">
+                        <a href="#">
+                            Start Bootstrap
+                        </a>
+                    </li>-->
+                    <li>
+                        <a href="#landing"><span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"><span class="glyphicon glyphicon-th"></span> Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="burger-wrapper">
+                        <a href="#menu-toggle" id="menu-toggle"><span id="menu_burger" class="glyphicon glyphicon-menu-hamburger"></span></a>
+                    </div>
+                    <div class="landing" id="landing">
+                        <div class="lime_nav">
+                            <img id="lime-logo" src="https://msu.edu/~salmonl1/portfolio/lime_logo.png" />
+                            <div class="blobs">
+                                <div class="blob"></div>
+                                <div class="blob"></div>
+                            </div>
+                            <!--<a href="#menu-toggle" id="menu-toggle"><span id="menu_burger" class="glyphicon glyphicon-menu-hamburger"></span></a>-->
+                        </div>
+                        <div class="name_contain">
+                            <h1>LEVI<br />SALMON</h1>
+                        </div>
+
+                        <div class="scroll_anim">
+                            <div class="mouse"><div class="wheel"></div></div>
+                            <div class="mousearrow"><span class="unu spanmouse"></span> <span class="doi spanmouse"></span> <span class="trei spanmouse"></span> </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio" id="portfolio">
+
+                        <div class="tab-container">
+                            <ul class="nav nav-tabs nav-stacked">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#home"><p><span class="glyphicon glyphicon-folder-open"></span><br />ALL</p></a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu1"><p><span class="glyphicon glyphicon-pencil"></span><br />DESIGN</p></a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu2"><p><span class="glyphicon glyphicon-music"></span><br />MUSIC</p></a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#menu3"><p><span class="glyphicon glyphicon-camera"></span><br />PHOTOS</p></a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="home" class="tab-pane fade in active">
+                                    <div class="thumbnail-row main" ng-controller="MainController">
+                                        <div ng-repeat="piece in pieces" class="portfolio-container">
+                                            <div class="portfolio-item">
+                                                <img ng-src="{{ piece.photoUrl }}" alt="nothing" class="thumbnail-picture" />
+                                                <div class="thumbnail-caption">
+                                                    <p>{{ piece.desc }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                    <div class="thumbnail-row main" ng-controller="MainController">
+                                        <div ng-repeat="piece in pieces | filter : { category : 'design' }" class="portfolio-container">
+                                            <div class="portfolio-item">
+                                                <img ng-src="{{ piece.photoUrl }}" alt="nothing" class="thumbnail-picture" />
+                                                <div class="thumbnail-caption">
+                                                    <p>{{ piece.desc }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                    <div class="thumbnail-row main" ng-controller="MainController">
+                                        <div ng-repeat="piece in pieces | filter : { category : 'music' }" class="portfolio-container">
+                                            <div class="portfolio-item">
+                                                <img ng-src="{{ piece.photoUrl }}" alt="nothing" class="thumbnail-picture" />
+                                                <div class="thumbnail-caption">
+                                                    <p>{{ piece.desc }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="menu3" class="tab-pane fade">
+                                    <div class="thumbnail-row main" ng-controller="MainController">
+                                        <div ng-repeat="piece in pieces | filter : { category : 'photos' }" class="portfolio-container">
+                                            <div class="portfolio-item">
+                                                <img ng-src="{{ piece.photoUrl }}" alt="nothing" class="thumbnail-picture" />
+                                                <div class="thumbnail-caption">
+                                                    <p>{{ piece.desc }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+        </defs>
+    </svg>
+
+</body>
+</html>

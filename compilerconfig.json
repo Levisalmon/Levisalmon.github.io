@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "style.css",
+    "inputFile": "style.scss"
+  },
+  {
+    "outputFile": "stylesheets/_materialize.css",
+    "inputFile": "stylesheets/_materialize.scss"
+  },
+  {
+    "outputFile": "stylesheets/_bootstrap.css",
+    "inputFile": "stylesheets/_bootstrap.scss"
+  },
+  {
+    "outputFile": "stylesheets/_actualstuff.css",
+    "inputFile": "stylesheets/_actualstuff.scss"
+  }
+]
