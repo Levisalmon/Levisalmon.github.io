@@ -46,12 +46,15 @@
         position: relative;
         top: 35%;
         transform: translateY(-35%);
-        -moz-animation: neonStutter 3s linear 2s;
+        /*-moz-animation: neonStutter 3s linear 2s;
         -o-animation: neonStutter 3s linear 2s;
         -webkit-animation: neonStutter 3s linear 2s;
         animation: neonStutter 3s linear 2s;
         animation-fill-mode: forwards;
-        filter: grayscale(100%);
+        filter: grayscale(100%);*/
+        background: linear-gradient(to right, #ff9f3f 25%,#fff549 39%,#a1ff49 70%);
+        -webkit-background-clip: text;
+        background-clip: text;
 
         @media (max-width:$small) {
             top: 30%;
