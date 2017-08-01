@@ -55,7 +55,6 @@
         background: linear-gradient(to right, #ff9f3f 25%,#fff549 39%,#a1ff49 70%);
         -webkit-background-clip: text;
         background-clip: text;
-        z-index:1;
 
         @media (max-width:$small) {
             top: 30%;
@@ -70,7 +69,6 @@
             color:#cfcfcf;
             -webkit-text-stroke: 6px transparent;
             -webkit-text-fill-color: #212121;
-            z-index:0;
 
             @media (max-width:$small) {
                 -webkit-text-stroke: 3px transparent;
