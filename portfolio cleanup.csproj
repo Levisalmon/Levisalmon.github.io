@@ -264,6 +264,7 @@
     <Content Include="stylesheets\_portfolio.scss" />
     <Content Include="stylesheets\_mousescroll.scss" />
     <Content Include="stylesheets\_portfolio - Copy.scss" />
+    <Content Include="stylesheets\_sizes.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

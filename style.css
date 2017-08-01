@@ -11877,7 +11877,7 @@ body {
   border-radius: 100%;
   padding: 9px;
   background: #545454; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #menu_burger {
       font-size: 20px;
       padding: 7px;
@@ -11946,7 +11946,7 @@ body {
   .landing .lime_nav {
     margin-top: 40px;
     font-size: 30px; }
-    @media (max-width: 21em) {
+    @media (max-width: 24em) {
       .landing .lime_nav {
         margin-top: 15px; } }
     .landing .lime_nav img {
@@ -11958,7 +11958,7 @@ body {
       animation-fill-mode: forwards;
       transform: translateX(-50%);
       z-index: 1; }
-      @media (max-width: 21em) {
+      @media (max-width: 24em) {
         .landing .lime_nav img {
           height: 60px; } }
   .landing .name_contain {
@@ -11971,7 +11971,7 @@ body {
     animation: neonStutter 3s linear 2s;
     animation-fill-mode: forwards;
     filter: grayscale(100%); }
-    @media (max-width: 21em) {
+    @media (max-width: 24em) {
       .landing .name_contain {
         top: 20%; } }
     .landing .name_contain h1 {
@@ -11982,7 +11982,7 @@ body {
       margin-left: 100px;
       -webkit-text-stroke: 6px transparent;
       -webkit-text-fill-color: #212121; }
-      @media (max-width: 21em) {
+      @media (max-width: 24em) {
         .landing .name_contain h1 {
           -webkit-text-stroke: 3px transparent;
           font-size: 50px;
@@ -12003,12 +12003,12 @@ body {
     position: relative;
     top: 40%;
     transform: translateY(-40%); }
-    @media (max-width: 21em) {
+    @media (max-width: 24em) {
       .landing .bio_holder {
         width: 100%;
         font-size: 14px;
         top: 30%; } }
-    @media (max-width: 21em) {
+    @media (max-width: 24em) {
       .landing .bio_holder h1 {
         font-size: large; } }
     .landing .bio_holder .scroll-call-container {
@@ -12092,7 +12092,7 @@ body {
 
 #wrapper.toggled {
   padding-left: 250px; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #wrapper.toggled {
       padding-left: 200px; } }
 
@@ -12112,7 +12112,7 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #sidebar-wrapper {
       left: 200px;
       margin-left: -200px; } }
@@ -12120,7 +12120,7 @@ body {
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
   transition: all 0.5s ease; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #wrapper.toggled #sidebar-wrapper {
       width: 200px; } }
 
@@ -12135,7 +12135,7 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #wrapper.toggled .glyphicon-menu-hamburger {
       transform: translateX(200px); } }
 
@@ -12148,7 +12148,7 @@ body {
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     #wrapper.toggled #page-content-wrapper {
       margin-right: -200px; } }
 
@@ -12162,7 +12162,7 @@ body {
   list-style: none;
   height: 35%;
   display: table; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     .sidebar-nav {
       width: 200px; } }
 
@@ -12207,7 +12207,7 @@ body {
     width: 0; }
   #wrapper.toggled #sidebar-wrapper {
     width: 250px; } }
-  @media (min-width: 768px) and (max-width: 21em) {
+  @media (min-width: 768px) and (max-width: 24em) {
     #wrapper.toggled #sidebar-wrapper {
       width: 200px; } }
 
@@ -12228,7 +12228,7 @@ body {
   bottom: 0;
   right: 0;
   opacity: .3; }
-  @media (max-width: 21em) {
+  @media (max-width: 24em) {
     .blobs {
       visibility: hidden; } }
 
