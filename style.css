@@ -12473,6 +12473,9 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%); }
+  @media (max-width: 24em) {
+    .scroll_anim {
+      bottom: 10%; } }
 
 .spanmouse {
   display: block;

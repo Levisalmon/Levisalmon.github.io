@@ -1,8 +1,13 @@
-﻿.scroll_anim {
+﻿@import '_sizes.scss';
+
+.scroll_anim {
     bottom:3%;
     position:absolute;
     left:50%;
     transform: translateX(-50%);
+    @media (max-width:$small) {
+        bottom: 10%;
+    }
 }
 
 .spanmouse
