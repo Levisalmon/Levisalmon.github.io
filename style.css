@@ -11861,6 +11861,26 @@ button.close {
     background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%);
     -webkit-background-clip: text; } }
 
+@-webkit-keyframes neonStutter {
+  0% {
+    background: none;
+    -webkit-background-clip: text; }
+  25% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  34% {
+    background: #212121; }
+  38% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  42% {
+    background: #212121; }
+  46% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  50% {
+    background: #212121; }
+  100% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%);
+    -webkit-background-clip: text; } }
+
 body {
   font-family: "BebasNeue Regular" !important; }
 
@@ -12060,6 +12080,26 @@ body {
     opacity: 1; } }
 
 @keyframes neonStutter {
+  0% {
+    background: none;
+    -webkit-background-clip: text; }
+  25% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  34% {
+    background: #212121; }
+  38% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  42% {
+    background: #212121; }
+  46% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%); }
+  50% {
+    background: #212121; }
+  100% {
+    background: linear-gradient(to right, #ff9f3f 0%, #fff549 39%, #a1ff49 100%);
+    -webkit-background-clip: text; } }
+
+@-webkit-keyframes neonStutter {
   0% {
     background: none;
     -webkit-background-clip: text; }
