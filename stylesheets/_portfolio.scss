@@ -97,7 +97,7 @@
         & .port-cat {
             @extend .col-md-4;
             height:100%;
-            display:table;
+            display:inline-table;
             text-align:center;
             border:3px solid #333;
             z-index:0;

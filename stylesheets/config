@@ -1,0 +1,2 @@
+[remote "git@github.com:Levisalmon/levisalmon.github.io.git"]
+	puttykeyfile = C:/Users/ljsalmon/.ssh/mtg.ppk

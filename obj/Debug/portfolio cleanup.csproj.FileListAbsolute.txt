@@ -31,3 +31,76 @@ C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portf
 C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.csprojResolveAssemblyReference.cache
 C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.dll
 C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\portfolio redesign\portfolio cleanup\obj\Debug\portfolio cleanup.pdb
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\obj\Debug\portfolio cleanup.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\obj\Debug\portfolio cleanup.pdb
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\ApplicationInsights.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csc.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csc.exe.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csc.rsp
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csi.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csi.exe.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\csi.rsp
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.AppContext.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Console.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.IO.Compression.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Claims.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Threading.Thread.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.ValueTuple.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\vbc.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\vbc.exe.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\vbc.rsp
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\VBCSCompiler.exe
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\portfolio cleanup.dll.config
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\portfolio cleanup.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\portfolio cleanup.pdb
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.Web.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.Web.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ljsalmon\Documents\Visual Studio 2015\Projects\levisalmon.github.io\obj\Debug\portfolio cleanup.csprojResolveAssemblyReference.cache

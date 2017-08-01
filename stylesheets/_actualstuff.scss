@@ -1,6 +1,7 @@
 ﻿@import "bootstrap.scss";
 @import "heights";
 @import "animations";
+@import '_sizes';
 
 body {
     font-family:"BebasNeue Regular" !important;
@@ -21,5 +22,11 @@ body {
     border-radius: 100%;
     padding: 9px;
     background: #545454;
+    @media (max-width:$small) {
+        font-size:20px;
+        padding:7px;
+        top:18px;
+        left:18px;
+    }
 }
 

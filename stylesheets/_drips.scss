@@ -1,4 +1,6 @@
-﻿.blobs{
+﻿@import '_sizes.scss';
+
+.blobs{
   filter:url('#goo');
   position:absolute;
   top:0;
@@ -7,6 +9,9 @@
   bottom:0;
   right:0;
   opacity:.3;
+  @media (max-width:$small) {
+    visibility:hidden;
+  }
 }
 
 .blob {

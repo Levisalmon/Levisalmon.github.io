@@ -11877,6 +11877,12 @@ body {
   border-radius: 100%;
   padding: 9px;
   background: #545454; }
+  @media (max-width: 21em) {
+    #menu_burger {
+      font-size: 20px;
+      padding: 7px;
+      top: 18px;
+      left: 18px; } }
 
 .style_button {
   position: relative;
@@ -11940,6 +11946,9 @@ body {
   .landing .lime_nav {
     margin-top: 40px;
     font-size: 30px; }
+    @media (max-width: 21em) {
+      .landing .lime_nav {
+        margin-top: 15px; } }
     .landing .lime_nav img {
       filter: grayscale(100%);
       position: absolute;
@@ -11949,25 +11958,38 @@ body {
       animation-fill-mode: forwards;
       transform: translateX(-50%);
       z-index: 1; }
+      @media (max-width: 21em) {
+        .landing .lime_nav img {
+          height: 60px; } }
   .landing .name_contain {
     margin: auto;
     margin-top: -40px;
-    width: 600px;
-    text-align: left;
+    text-align: center;
     position: relative;
     top: 35%;
     transform: translateY(-35%);
     animation: neonStutter 3s linear 2s;
     animation-fill-mode: forwards;
     filter: grayscale(100%); }
+    @media (max-width: 21em) {
+      .landing .name_contain {
+        top: 20%; } }
     .landing .name_contain h1 {
       font-family: "BebasNeue Regular";
       font-size: 120px;
       letter-spacing: 40px;
-      text-indent: -100px;
+      text-indent: -400px;
       margin-left: 100px;
       -webkit-text-stroke: 6px transparent;
       -webkit-text-fill-color: #212121; }
+      @media (max-width: 21em) {
+        .landing .name_contain h1 {
+          -webkit-text-stroke: 3px transparent;
+          font-size: 50px;
+          letter-spacing: 15px;
+          text-indent: -120px;
+          margin-left: 20px;
+          width: 100%; } }
   .landing .bio_holder {
     text-align: center;
     margin: auto;
@@ -11981,6 +12003,14 @@ body {
     position: relative;
     top: 40%;
     transform: translateY(-40%); }
+    @media (max-width: 21em) {
+      .landing .bio_holder {
+        width: 100%;
+        font-size: 14px;
+        top: 30%; } }
+    @media (max-width: 21em) {
+      .landing .bio_holder h1 {
+        font-size: large; } }
     .landing .bio_holder .scroll-call-container {
       color: #e5e5e5;
       margin-top: 45px; }
@@ -12062,6 +12092,9 @@ body {
 
 #wrapper.toggled {
   padding-left: 250px; }
+  @media (max-width: 21em) {
+    #wrapper.toggled {
+      padding-left: 200px; } }
 
 #sidebar-wrapper {
   font-family: "BebasNeue Bold";
@@ -12079,10 +12112,17 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  @media (max-width: 21em) {
+    #sidebar-wrapper {
+      left: 200px;
+      margin-left: -200px; } }
 
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
   transition: all 0.5s ease; }
+  @media (max-width: 21em) {
+    #wrapper.toggled #sidebar-wrapper {
+      width: 200px; } }
 
 #page-content-wrapper {
   width: 100%;
@@ -12095,6 +12135,9 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  @media (max-width: 21em) {
+    #wrapper.toggled .glyphicon-menu-hamburger {
+      transform: translateX(200px); } }
 
 #menu-toggle, .glyphicon-menu-hamburger {
   -webkit-transition: all 0.5s ease;
@@ -12105,6 +12148,9 @@ body {
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px; }
+  @media (max-width: 21em) {
+    #wrapper.toggled #page-content-wrapper {
+      margin-right: -200px; } }
 
 /* Sidebar Styles */
 .sidebar-nav {
@@ -12116,6 +12162,9 @@ body {
   list-style: none;
   height: 35%;
   display: table; }
+  @media (max-width: 21em) {
+    .sidebar-nav {
+      width: 200px; } }
 
 .sidebar-nav li {
   text-align: center;
@@ -12157,7 +12206,12 @@ body {
   #sidebar-wrapper {
     width: 0; }
   #wrapper.toggled #sidebar-wrapper {
-    width: 250px; }
+    width: 250px; } }
+  @media (min-width: 768px) and (max-width: 21em) {
+    #wrapper.toggled #sidebar-wrapper {
+      width: 200px; } }
+
+@media (min-width: 768px) {
   #page-content-wrapper {
     padding: 0px;
     position: relative; }
@@ -12174,6 +12228,9 @@ body {
   bottom: 0;
   right: 0;
   opacity: .3; }
+  @media (max-width: 21em) {
+    .blobs {
+      visibility: hidden; } }
 
 .blob {
   position: absolute;
@@ -12315,7 +12372,7 @@ body {
     background-color: #585858; }
     #portfolio #port-selector .port-cat {
       height: 100%;
-      display: table;
+      display: inline-table;
       text-align: center;
       border: 3px solid #333;
       z-index: 0; }

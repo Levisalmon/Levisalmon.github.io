@@ -5903,4 +5903,10 @@ body {
   border-radius: 100%;
   padding: 9px;
   background: #545454; }
+  @media (max-width: 21em) {
+    #menu_burger {
+      font-size: 20px;
+      padding: 7px;
+      top: 18px;
+      left: 18px; } }
 

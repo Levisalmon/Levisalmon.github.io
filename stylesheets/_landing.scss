@@ -1,4 +1,6 @@
 ﻿
+@import "sizes";
+
 .landing {
     @extend .row;
     height: 100vh;
@@ -13,7 +15,9 @@
     & .lime_nav {
         margin-top: 40px;
         font-size:30px;
-
+        @media (max-width:$small) {
+            margin-top:15px;
+        }
         & img {
             filter: grayscale(100%);
             position: absolute;
@@ -23,29 +27,41 @@
             animation-fill-mode: forwards;
             transform: translateX(-50%);
             z-index:1;
+            @media (max-width:$small) {
+                height:60px;
+            }
         }
     }
 
     & .name_contain {
         margin: auto;
         margin-top: -40px;
-        width: 600px;
-        text-align: left;
+        text-align: center;
         position: relative;
         top: 35%;
         transform: translateY(-35%);
         animation: neonStutter 3s linear 2s;
         animation-fill-mode:forwards;
         filter: grayscale(100%);
-
+        @media (max-width:$small) {
+            top:20%;
+        }
         & h1 {
             font-family: "BebasNeue Regular";
             font-size: 120px;
             letter-spacing: 40px;
-            text-indent: -100px;
+            text-indent: -400px;
             margin-left: 100px;
             -webkit-text-stroke: 6px transparent;
             -webkit-text-fill-color: #212121;
+            @media (max-width:$small) {
+                -webkit-text-stroke: 3px transparent;
+                font-size:50px;
+                letter-spacing:15px;
+                text-indent:-120px;
+                margin-left:20px;
+                width:100%;
+            }
         }
     }
 
@@ -62,6 +78,16 @@
         position: relative;
         top: 40%;
         transform: translateY(-40%);
+        @media (max-width:$small) {
+            width:100%;
+            font-size:14px;
+            top:30%
+        }
+        & h1 {
+            @media (max-width:$small) {
+            font-size:large;
+        }
+        }
         & .scroll-call-container {
             color:#e5e5e5;
             margin-top:45px;
