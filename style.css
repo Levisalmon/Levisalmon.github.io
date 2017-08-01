@@ -12362,6 +12362,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); }
+    @media (max-width: 24em) {
+      #portfolio #port-hero {
+        height: 30vh; } }
     #portfolio #port-hero:before {
       content: '';
       position: absolute;
@@ -12443,7 +12446,8 @@ body {
     background-color: #585858; }
     @media (max-width: 24em) {
       #portfolio #port-selector {
-        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%); } }
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+        transform: translateY(-20px); } }
     #portfolio #port-selector .port-cat {
       height: 100%;
       display: inline-table;
@@ -12453,7 +12457,7 @@ body {
       @media (max-width: 24em) {
         #portfolio #port-selector .port-cat {
           width: 100%;
-          height: calc(50vh/3);
+          height: calc(75vh/3);
           border-width: 1px; } }
       #portfolio #port-selector .port-cat h1 {
         font-size: 50px;

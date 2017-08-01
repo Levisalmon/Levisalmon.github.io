@@ -10,6 +10,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+        @media (max-width:$small) {
+            height:30vh;
+        }
         &:before {
             content: '';
 	        position: absolute;
@@ -113,6 +116,7 @@
         background-color:#585858;
         @media (max-width:$small) {
             clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);    
+            transform: translateY(-20px);
         }
         & .port-cat {
             @extend .col-xs-4;
@@ -123,7 +127,7 @@
             z-index:0;
             @media (max-width:$small) {
                 width:100%;
-                height:calc(50vh/3);
+                height:calc(75vh/3);
                 border-width:1px;
             }
 
