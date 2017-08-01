@@ -1620,13 +1620,13 @@ pre {
   .row:after, .burger-wrapper:after, .landing:after, #portfolio:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, #portfolio #port-selector .port-cat, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, #portfolio #port-selector .port-cat, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, #portfolio #port-selector .port-cat, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
 .col-xs-1 {
@@ -1638,7 +1638,7 @@ pre {
 .col-xs-3 {
   width: 25%; }
 
-.col-xs-4 {
+.col-xs-4, #portfolio #port-selector .port-cat {
   width: 33.33333%; }
 
 .col-xs-5 {
@@ -1889,7 +1889,7 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, #portfolio #port-selector .port-cat, .col-md-5, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
   .col-md-1 {
     width: 8.33333%; }
@@ -1897,7 +1897,7 @@ pre {
     width: 16.66667%; }
   .col-md-3 {
     width: 25%; }
-  .col-md-4, #portfolio #port-selector .port-cat {
+  .col-md-4 {
     width: 33.33333%; }
   .col-md-5 {
     width: 41.66667%; }
@@ -7504,13 +7504,13 @@ pre {
   .row:after, .burger-wrapper:after, .landing:after, #portfolio:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, #portfolio #port-selector .port-cat, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, #portfolio #port-selector .port-cat, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, #portfolio #port-selector .port-cat, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
 .col-xs-1 {
@@ -7522,7 +7522,7 @@ pre {
 .col-xs-3 {
   width: 25%; }
 
-.col-xs-4 {
+.col-xs-4, #portfolio #port-selector .port-cat {
   width: 33.33333%; }
 
 .col-xs-5 {
@@ -7773,7 +7773,7 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, #portfolio #port-selector .port-cat, .col-md-5, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, #portfolio #port-hero .hero-text, #portfolio #port-hero .icon-list, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
   .col-md-1 {
     width: 8.33333%; }
@@ -7781,7 +7781,7 @@ pre {
     width: 16.66667%; }
   .col-md-3 {
     width: 25%; }
-  .col-md-4, #portfolio #port-selector .port-cat {
+  .col-md-4 {
     width: 33.33333%; }
   .col-md-5 {
     width: 41.66667%; }
@@ -12376,6 +12376,10 @@ body {
       margin-left: 10%;
       display: table;
       white-space: nowrap; }
+      @media (max-width: 24em) {
+        #portfolio #port-hero .hero-text {
+          width: 100%;
+          margin-left: 0; } }
       #portfolio #port-hero .hero-text h1 {
         font-size: 95px;
         text-align: center;
@@ -12383,9 +12387,16 @@ body {
         height: 100%;
         vertical-align: middle;
         display: table-cell; }
+        @media (max-width: 24em) {
+          #portfolio #port-hero .hero-text h1 {
+            font-size: 45px; } }
         #portfolio #port-hero .hero-text h1 .line1 {
           float: right;
           margin-left: 10%; }
+          @media (max-width: 24em) {
+            #portfolio #port-hero .hero-text h1 .line1 {
+              float: none;
+              margin-left: 0; } }
         #portfolio #port-hero .hero-text h1 .line2 {
           margin: auto;
           clear: both; }
@@ -12393,10 +12404,16 @@ body {
           float: left;
           margin-left: -10%;
           margin-top: 5px; }
+          @media (max-width: 24em) {
+            #portfolio #port-hero .hero-text h1 .line3 {
+              margin-left: 0; } }
     #portfolio #port-hero .icon-list {
       display: inline-block;
       position: absolute;
       height: inherit; }
+      @media (max-width: 24em) {
+        #portfolio #port-hero .icon-list {
+          visibility: hidden; } }
       #portfolio #port-hero .icon-list ul {
         height: 100%;
         display: table;
@@ -12420,17 +12437,24 @@ body {
             background-image: url("http://i.imgur.com/nYtkMMC.jpg");
             transform: translateY(100px); }
   #portfolio #port-selector {
-    width: 100%;
     height: 50vh;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     transform: translateY(-60px);
     background-color: #585858; }
+    @media (max-width: 24em) {
+      #portfolio #port-selector {
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%); } }
     #portfolio #port-selector .port-cat {
       height: 100%;
       display: inline-table;
       text-align: center;
       border: 3px solid #333;
       z-index: 0; }
+      @media (max-width: 24em) {
+        #portfolio #port-selector .port-cat {
+          width: 100%;
+          height: calc(50vh/3);
+          border-width: 1px; } }
       #portfolio #port-selector .port-cat h1 {
         font-size: 50px;
         color: white;
@@ -12438,11 +12462,17 @@ body {
         height: 100%;
         display: table-cell;
         vertical-align: middle; }
+        @media (max-width: 24em) {
+          #portfolio #port-selector .port-cat h1 {
+            font-size: 35px; } }
       #portfolio #port-selector .port-cat span {
         background-color: rgba(0, 0, 0, 0.6);
         padding: 25px;
         border: 2px solid white;
         border-radius: 5px; }
+        @media (max-width: 24em) {
+          #portfolio #port-selector .port-cat span {
+            padding: 10px; } }
       #portfolio #port-selector .port-cat.photos {
         background-image: url("http://i.imgur.com/YtNPwWE.jpg");
         background-size: cover;
@@ -12463,6 +12493,9 @@ body {
         background-repeat: no-repeat; }
         #portfolio #port-selector .port-cat.design h1 {
           font-size: 75px; }
+          @media (max-width: 24em) {
+            #portfolio #port-selector .port-cat.design h1 {
+              font-size: 45px; } }
       #portfolio #port-selector .port-cat.music {
         background-image: url("http://i.imgur.com/3WJXZtT.jpg");
         background-size: cover;
